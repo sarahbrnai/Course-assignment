@@ -1,4 +1,4 @@
-Day 1: Academic Personal Website- Sarah Borni
+## Day 1: Academic Personal Website- Sarah Borni
 
 ## About the Project
 This repository contains my personal academic website, created using **GitHub Pages**. The website presents my academic background, research interests, professional experience, skills, and personal hobbies.
