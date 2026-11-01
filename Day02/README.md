@@ -1,4 +1,4 @@
-# Day 02-Git, Visual Studio Code and Python
+# Day 02: Git, Visual Studio Code
 
 ## 1. First Program
 - Wrote a program that prints "Hello World" to the screen- print("Hello world")
