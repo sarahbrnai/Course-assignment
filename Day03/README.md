@@ -13,7 +13,7 @@ Protein molecular weight can be estimated by summing the molecular masses of all
 ## Project Structure
 
 - `main.py` – Python program containing the calculation and FASTA reading functions.
-- `proteins.fasta` – Input file containing example protein sequences.
+- `rcsb_pdb_1A7F.fasta` – Input file containing example protein sequences from the PDB.
 - `README.md` – Project documentation.
 
 ## Functions
