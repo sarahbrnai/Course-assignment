@@ -9,7 +9,7 @@ The program reads protein sequences from a FASTA file, calculates their molecula
 ## Project Structure
 
 - `main.py` – Python program containing the calculation and FASTA reading functions.
-- `rcsb_pdb_1A7F.fasta` – A stored a file containing example protein sequences from the PDB.
+- `rcsb_pdb_1A7F.fasta` – A stored file containing example protein sequences from the PDB.
 - `README.md` – Project documentation.
 
 ## Functions
