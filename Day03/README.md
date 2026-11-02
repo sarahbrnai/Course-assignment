@@ -6,14 +6,10 @@ This project implements a Python program for calculating the theoretical molecul
 
 The program reads protein sequences from a FASTA file, calculates their molecular weight based on amino acid residue masses, and displays the results.
 
-## Scientific Background
-
-Protein molecular weight can be estimated by summing the molecular masses of all amino acid residues in a sequence and adding one water molecule (18.0153 Da).
-
 ## Project Structure
 
 - `main.py` – Python program containing the calculation and FASTA reading functions.
-- `rcsb_pdb_1A7F.fasta` – Input file containing example protein sequences from the PDB.
+- `rcsb_pdb_1A7F.fasta` – A stored a file containing example protein sequences from the PDB.
 - `README.md` – Project documentation.
 
 ## Functions
