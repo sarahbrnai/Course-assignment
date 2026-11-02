@@ -76,7 +76,7 @@ def read_fasta(filename):
 
     return proteins
 
-proteins = read_fasta("proteins.fasta")
+proteins = read_fasta("rcsb_pdb_1A7F.fasta")
 
 for name, sequence in proteins.items():
 
