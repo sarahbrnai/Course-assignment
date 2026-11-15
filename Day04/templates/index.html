@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Protein Calculator</title>
+</head>
+<body>
+    <h1>Protein Molecular Weight Calculator</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="fasta_file" accept=".fasta,.fa,.txt">
+        <button type="submit">Analyze Protein</button>
+    </form>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    {% for result in results %}
+        <h2>{{ result.name }}</h2>
+        <p>Length: {{ result.length }}</p>
+        <p>Molecular Weight: {{ result.weight }} Da</p>
+
+        <h3>Amino Acid Composition</h3>
+        <ul>
+            {% for amino_acid, percentage in result.composition.items() %}
+                <li>{{ amino_acid }}: {{ percentage }}%</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>
