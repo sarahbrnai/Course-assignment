@@ -82,7 +82,7 @@ A total of 9 unit tests were implemented to verify:
 To run the tests, execute:
 
 ```bash
-python -m unittest -v test_protein_logic
+python3 -m unittest -v test_protein_logic
 ```
 
 All 9 tests passed successfully.
